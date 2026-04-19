@@ -38,6 +38,9 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
+config ZMK_USB_BOOT
+    default y
+
 if ZMK_RGB_UNDERGLOW
 
 config ZMK_RGB_UNDERGLOW_HUE_START
