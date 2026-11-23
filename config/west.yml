@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: mkopec
-      url-base: https://github.com/mkopec
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: mkopec
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
