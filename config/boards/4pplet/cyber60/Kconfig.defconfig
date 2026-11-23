@@ -35,9 +35,6 @@ config BT_CTLR
 config ZMK_BLE
 	default y
 
-config ZMK_BLE_WAKE_HOST_ON_KEY_PRESS
-	default y
-
 config ZMK_USB
 	default y
 
